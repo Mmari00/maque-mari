@@ -1,0 +1,60 @@
+.lista-productos-container {
+    padding: 40px;
+  }
+  
+  .grid-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .tarjeta-producto {
+    width: 300px;
+    height: 250px;
+    border: 2px solid  rgb(89, 0, 253);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+  
+  .contenido-producto {
+    flex-grow: 1;
+    font-size: 15px;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .btn-ver {
+    align-self: center;
+    width: 100px;
+    padding: 8px;
+    
+    border: 2px solid  rgb(89, 0, 253);
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .mensaje-error {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: red;
+  }
+  
+  .contenedor-home {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn-home {
+    padding: 5px 15px;
+    border: 2px solid  rgb(89, 0, 253);
+    background-color: white;
+    cursor: pointer;
+  }
+  
